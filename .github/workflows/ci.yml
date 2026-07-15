@@ -1,0 +1,32 @@
+name: CI
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '0 0 * * *'
+  push:
+    branches:
+      - main
+  pull_request:
+    types: [opened, synchronize]
+
+permissions:
+  contents: write
+
+jobs:
+  update-sponsors:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@9c091bb21b7c1c1d1991bb908d89e4e9dddfe3e0 # v7.0.0
+
+      - uses: oxc-project/setup-node@4c588e9266bd930b6ddc34307df0659ed511d187 # v1.3.1
+
+      - run: pnpm run build
+        env:
+          SPONSORKIT_OPENCOLLECTIVE_KEY: ${{ secrets.SPONSORKIT_OPENCOLLECTIVE_KEY }}
+          VIPS_CONCURRENCY: 1
+
+      - uses: EndBug/add-and-commit@290ea2c423ad77ca9c62ae0f5b224379612c0321 # v10.0.0
+        with:
+          add: "sponsors.*"
+          message: "chore: update sponsors"

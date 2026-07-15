@@ -1,0 +1,13 @@
+{
+  "name": "sponsors",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "sponsorkit"
+  },
+  "devDependencies": {
+    "sponsorkit": "^17.1.0",
+    "svgo": "^4.0.1"
+  },
+  "packageManager": "pnpm@11.9.0"
+}
