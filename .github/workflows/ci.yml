@@ -41,10 +41,7 @@ jobs:
           delete-branch: true
           base: main
           title: "chore: update sponsors"
-          commit-message: |
-            chore: update sponsors
-
-            [skip ci]
+          commit-message: "chore: update sponsors"
           body: Automated sponsors update.
           add-paths: sponsors.*
 
