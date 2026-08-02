@@ -13,7 +13,7 @@ importers:
         version: 17.1.1
       svgo:
         specifier: ^4.0.1
-        version: 4.0.1
+        version: 4.0.2
 
 packages:
 
@@ -270,8 +270,8 @@ packages:
   quansync@1.0.0:
     resolution: {integrity: sha512-5xZacEEufv3HSTPQuchrvV6soaiACMFnq1H8wkVioctoH3TRha9Sz66lOxRwPK/qZj7HPiSveih9yAyh98gvqA==}
 
-  sax@1.6.0:
-    resolution: {integrity: sha512-6R3J5M4AcbtLUdZmRv2SygeVaM7IhrLXu9BmnOGmmACak8fiUtOsYNWUS4uK7upbmHIBbLBeFeI//477BKLBzA==}
+  sax@1.6.1:
+    resolution: {integrity: sha512-42tBVwLWnaQvW5zc4HbZrTuWccECCZfBi92FDuwtqxasH+JbPB3/FOKb1m222K42R4WxuxzzMsTswfzgtSu64Q==}
     engines: {node: '>=11.0.0'}
 
   semver@7.8.1:
@@ -291,8 +291,8 @@ packages:
     resolution: {integrity: sha512-qsDA8ggyJSVszmaDa9aXJFp6DXu8ucK1kA2LRhxijpKcmRA9ndDcQZd8j9RfnLto49Q3SuAsH0L+8QStaZhwzw==}
     hasBin: true
 
-  svgo@4.0.1:
-    resolution: {integrity: sha512-XDpWUOPC6FEibaLzjfe0ucaV0YrOjYotGJO1WpF0Zd+n6ZGEQUsSugaoLq9QkEZtAfQIxT42UChcssDVPP3+/w==}
+  svgo@4.0.2:
+    resolution: {integrity: sha512-ekx94z1rRc5LDi6oSUaeRnYhd0UOJxdtQCL2rF8xpWxD3TPAsISWOrxezqGovqS38GRZOdpDfvQe3ts6F7nsng==}
     engines: {node: '>=16'}
     hasBin: true
 
@@ -499,7 +499,7 @@ snapshots:
 
   quansync@1.0.0: {}
 
-  sax@1.6.0: {}
+  sax@1.6.1: {}
 
   semver@7.8.1: {}
 
@@ -546,7 +546,7 @@ snapshots:
       sharp: 0.34.5
       unconfig: 7.5.0
 
-  svgo@4.0.1:
+  svgo@4.0.2:
     dependencies:
       commander: 11.1.0
       css-select: 5.2.2
@@ -554,7 +554,7 @@ snapshots:
       css-what: 6.2.2
       csso: 5.0.5
       picocolors: 1.1.1
-      sax: 1.6.0
+      sax: 1.6.1
 
   tslib@2.8.1:
     optional: true
