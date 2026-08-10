@@ -1,6 +1,10 @@
 import { defineConfig, tierPresets } from 'sponsorkit'
 
 export default defineConfig({
+  github: {
+    login: 'oxc-project',
+    type: 'organization',
+  },
   opencollective: {
     slug: "oxc",
     type: 'collective'

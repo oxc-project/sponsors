@@ -22,6 +22,7 @@ jobs:
 
       - run: pnpm run build
         env:
+          SPONSORKIT_GITHUB_TOKEN: ${{ secrets.SPONSORKIT_GITHUB_TOKEN }}
           SPONSORKIT_OPENCOLLECTIVE_KEY: ${{ secrets.SPONSORKIT_OPENCOLLECTIVE_KEY }}
           VIPS_CONCURRENCY: 1
 
