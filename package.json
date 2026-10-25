@@ -6,7 +6,7 @@
     "build": "sponsorkit"
   },
   "devDependencies": {
-    "sponsorkit": "^18.0.0",
+    "sponsorkit": "^19.0.0",
     "svgo": "^4.0.1"
   },
   "packageManager": "pnpm@11.28.0"
