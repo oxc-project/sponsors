@@ -42212,16 +42212,13 @@
     "isOneTime": false,
     "monthlyDollars": 100,
     "privacyLevel": "PUBLIC",
-    "tierName": "🥉 Bronze Sponsor",
     "createdAt": "2026-11-03T19:05:28.248Z",
     "raw": {
       "id": "or_5lAiuifgOE319x0io0eeW",
       "createdAt": "2026-11-03T19:05:28.248Z",
       "frequency": "MONTHLY",
       "status": "ACTIVE",
-      "tier": {
-        "name": "🥉 Bronze Sponsor"
-      },
+      "tier": null,
       "amount": {
         "value": 100
       },
